@@ -1,4 +1,10 @@
 # ili9341-adalogger-cowbell-SDcard-audio-test.py
+"""
+CircuitPython test for ILI9341 SPI display + Adalogger Cowbell (SD card) + audio.
+- Displays a message with a styled frame
+- Mounts SD card with MP3s in /sd/robot_sounds/
+- Plays 3 MP3s using audiomp3 and AudioOut
+"""
 import board
 import busio
 import sdcardio
