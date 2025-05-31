@@ -6,3 +6,9 @@ Breadboard (if you use a pico, consider a MonkMakes board, which has pico labeli
 
 
 <img width="800" alt="wiring diagram" src="https://github.com/user-attachments/assets/6a7dc7a1-4bda-44e3-b92e-d20b8dfbe6d8" />
+
+And here is a demo of the big-ILI9341-demo.py
+Includes fonts, icons, colors, turtle graphics, pong simulation, and a lovely image
+
+[![Click to play video](https://img.youtube.com/vi/0/hqdefault.jpg)](https://youtu.be/vKWTbtbQi48)
+
