@@ -10,5 +10,6 @@ Breadboard (if you use a pico, consider a MonkMakes board, which has pico labeli
 And here is a demo of the big-ILI9341-demo.py
 Includes fonts, icons, colors, turtle graphics, pong simulation, and a lovely image
 
-[![Click to play video](https://img.youtube.com/vi/0/hqdefault.jpg)](https://youtu.be/vKWTbtbQi48)
+[![Watch the video](https://img.youtube.com/vi/vKWTbtbQi48/hqdefault.jpg)](https://youtu.be/vKWTbtbQi48)
+
 
