@@ -6,7 +6,7 @@ Demonstrates fonts, icons, colors, turtle graphics, game-style animation, and im
 import board
 import busio
 import time
-import displayio
+import displayio, fourwire
 import pwmio
 import terminalio
 from adafruit_display_text import label
@@ -17,7 +17,7 @@ import adafruit_ili9341
 displayio.release_displays()
 
 spi = busio.SPI(clock=board.GP18, MOSI=board.GP19, MISO=board.GP16)
-display_bus = displayio.FourWire(spi, command=board.GP21, chip_select=board.GP20, reset=board.GP15)
+display_bus = fourwire.FourWire(spi, command=board.GP21, chip_select=board.GP20, reset=board.GP15)
 backlight = pwmio.PWMOut(board.GP22, frequency=5000, duty_cycle=65535)
 
 display = adafruit_ili9341.ILI9341(display_bus, width=320, height=240, rotation=0, backlight_pin=None)
